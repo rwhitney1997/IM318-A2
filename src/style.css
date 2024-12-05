@@ -31,6 +31,10 @@ form{
 input{
      padding: 10px;
      margin-right: 40px;
+     border-style: solid;
+     border-radius: 10px;
+     border-color: black;
+     border-width: 5px;
 }
 
 #inputButton{
@@ -86,6 +90,7 @@ input#listCheck {
 #listCheck{
      margin-right: 50px;
      padding: 30px;
+     border: 1px solid black; 
 }
 
 .clearButton{
@@ -104,7 +109,7 @@ li{
      display: flex;
      justify-content: space-between;
      align-items: center;
-     margin: 10px 50px;
+     margin: 20px 50px;
      color: white;
 }
 
@@ -119,6 +124,7 @@ div:has(ul li) h2.text-pop-up-top{
 span{
      font-size: 2em;
 }
+
 
 
 
